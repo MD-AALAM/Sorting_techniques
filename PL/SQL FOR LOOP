@@ -1,0 +1,8 @@
+-- WITE A PL SQL PROGRAM TO PRINT 1-10 USING LOOP
+DECLARE
+    a NUMBER:=10;
+    BEGIN
+        FOR i IN 1..a LOOP
+        DBMS_OUTPUT.PUT_LINE(i);
+        END LOOP;
+    END;
